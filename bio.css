@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.bar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: 45vw;
+  max-height: fit-content;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 1.25vw;
+}
+
+.topbar {
+  height: fit-content;
+}
+
+.topbar img {
+  aspect-ratio: 1;
+  float: left;
+  width: 15vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.bio {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+.gallery img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px;
+    max-width: 14vw;
+    max-height: 14vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}

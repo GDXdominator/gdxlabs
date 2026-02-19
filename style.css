@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI';
+  text-align: center;
+  font-size: 20px;
+}
+
+.logo {
+  width: 500px;
+  height: 300px;
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.group-photo {
+  display: block;
+  position: static;
+  margin: auto;
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: -50px;
+}
+
+.bar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.bar ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.bar li {
+  padding: 2px;
+  display: inline;
+}
+
+a {
+  color: lightskyblue;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: deepskyblue;
+}
