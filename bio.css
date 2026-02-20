@@ -1,3 +1,14 @@
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+div {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/250px-Black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+}
+
 .card {
   margin-left: auto;
   margin-right: auto;
@@ -19,6 +30,21 @@
   margin-right: 10px;
 }
 
+.discography {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: fit-content;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 1.25vw;
+}
+
+.discography h3 {
+  margin-left: 10px;
+}
+
 .topbar {
   height: fit-content;
 }
@@ -38,8 +64,10 @@
 .bio {
   margin-left: 10px;
   margin-right: 10px;
+  height: 15vw;
 }
 
 h2 {
+  font-size: 2vw;
   text-align: center;
 }
