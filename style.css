@@ -1,16 +1,31 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Segoe UI';
-  text-align: center;
+  font-family: serif;
   font-size: 20px;
 }
 
+.homepage {
+  background-image: url(/Art/bg.png);
+}
+
+.menu {
+  background-image: url(/Art/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-blend-mode: color-burn;
+}
+
+.header {
+  text-align: center;
+}
+
 .logo {
-  width: 500px;
-  height: 300px;
-  max-width: 500px;
-  max-height: 300px;
+  width: 500vw;
+  height: 300vw;
+  max-width: 35vw;
+  max-height: 20vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,6 +40,7 @@ body {
 }
 
 .bar {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
@@ -32,13 +48,17 @@ body {
 }
 
 .bar ul {
-  text-align: center;
   list-style-type: none;
 }
 
 .bar li {
   padding: 2px;
   display: inline;
+}
+
+.section-divider {
+  color: grey;
+  max-width: 25%;
 }
 
 a {

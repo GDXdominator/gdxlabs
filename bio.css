@@ -1,9 +1,4 @@
-body {
-  background-color: black;
-  color: white;
-}
-
-.bar {
+.card {
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
@@ -13,6 +8,15 @@ body {
   border-width: 2px;
   border-color: white;
   font-size: 1.25vw;
+}
+
+.card ul {
+  height: 15vw;
+}
+
+.card hr {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .topbar {
@@ -27,7 +31,7 @@ body {
   margin-right: 10px;
   margin-bottom: 10px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: white;
 }
 
@@ -37,24 +41,5 @@ body {
 }
 
 h2 {
-    text-align: center;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60%;
-}
-
-.gallery img {
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    padding: 5px;
-    max-width: 14vw;
-    max-height: 14vw;
-    margin-top: auto;
-    margin-bottom: auto;
+  text-align: center;
 }
