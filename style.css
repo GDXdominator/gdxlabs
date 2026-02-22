@@ -2,41 +2,50 @@ body {
   background-color: black;
   color: white;
   font-family: 'Lucida Console';
-  font-size: 20px;
+  font-size: 2.5vmin;
 }
 
 .homepage {
   background-image: url(/Art/bg.png);
+  background-attachment: fixed;
 }
 
 .menu {
   background-image: url(/Art/bg.png);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 60% 100%;
-  background-blend-mode: color-burn;
+  background-size: 125vmin 100%;
 }
 
 .header {
   text-align: center;
+  margin: auto;
+  max-width: 45%;
+}
+
+.header h2 {
+  font-size: calc(5px + 1vw);
+}
+
+.header h3 {
+  font-size: calc(2px + 0.9vw);
 }
 
 .logo {
-  width: 500vw;
-  height: 300vw;
-  max-width: 35vw;
-  max-height: 20vw;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 200px;
+  min-height: 100px;
+  max-width: 25vw;
+  max-height: 25vw;
 }
 
 .group-photo {
   display: block;
   position: static;
   margin: auto;
+  min-width: 450px;
   max-width: 60%;
   max-height: 60%;
-  margin-top: -50px;
 }
 
 .bar {

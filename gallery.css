@@ -3,14 +3,15 @@
   grid-template-columns: auto auto auto auto;
   margin-left: auto;
   margin-right: auto;
+  min-width: 400px;
   max-width: 60%;
   row-gap: 10px;
 }
 
 .gallery img {
     margin: auto;
-    max-width: 90%;
-    max-height: 13.5vw;
+    max-width: 95%;
+    max-height: 15vw;
     border-style: solid;
     border-width: 1px;
     border-color: white;
@@ -18,7 +19,15 @@
 
 .fridge {
     background-image: url(/Art/fridge.jpg);
-    background-size: 80% 100vw;
+    background-attachment: fixed;
+    background-size: 80% 150%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.art-gallery {
+  background-image: url(/Art/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 125vmin 100%;
 }

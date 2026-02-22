@@ -6,19 +6,25 @@ div {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/250px-Black.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70% 100%;
+  background-size: 150vmin 100%;
+}
+
+div a {
+  margin: 5px;
 }
 
 .card {
   margin-left: auto;
   margin-right: auto;
+  min-width: 400px;
   max-width: 50%;
   height: 45vw;
+  min-height: 300px;
   max-height: fit-content;
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  font-size: 1.25vw;
+  font-size: calc(5px + 1.1vw);
 }
 
 .card ul {
@@ -33,25 +39,24 @@ div {
 .discography {
   margin-left: auto;
   margin-right: auto;
+  min-width: 400px;
   max-width: 50%;
   max-height: fit-content;
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  font-size: 1.25vw;
-}
-
-.discography h3 {
-  margin-left: 10px;
+  font-size: calc(5px + 1.1vw);
 }
 
 .topbar {
+  min-height: 125px;
   height: fit-content;
 }
 
 .topbar img {
-  aspect-ratio: 1;
   float: left;
+  min-width: 100px;
+  min-height: 100px;
   width: 15vw;
   margin-left: 10px;
   margin-right: 10px;
@@ -68,6 +73,18 @@ div {
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: calc(5px + 1.2vw);;
   text-align: center;
+}
+
+h3 {
+  margin-left: 10px;
+  font-size: calc(5px + 1.15vw);;
+}
+
+a {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2.25vmin;
 }
