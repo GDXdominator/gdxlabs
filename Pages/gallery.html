@@ -6,16 +6,17 @@
     <title>GDX</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/Scripts/gallery.js" defer></script>
   </head>
   <body class="homepage">
-    <div class="art-gallery">
+    <div id="art-gallery">
       <section class="header">
-        <a href="/index.html">Back</a>
+        <a href="/index.html" class="backbtn">Back</a>
         <h1>Art Gallery</h1>
         <h4>All da art...</h4>
       </section>
 
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <img title="witch" src="https://lh3.googleusercontent.com/rd-d/ALs6j_FL6GWzznMWYXj-rqKLDF-NNfGGwAbP_2Ups2pjx1SHQ-T0dvMNz00VOFzZ9Nhavr852RE-jbHcYQUFqKQX_7eDz4gl6ND8IZQpUPHPd2VpfdG6Ry93Q37vgMVhUiRY3Y8HWyFCwW24FNjrQUcc7b04dQRxN9k_LMjlwDIKYMKeX8BOM885QdYbZ9AefdQUc0s0q2kEhI8xegA45nxYX3i4oL3IZHkZH-tBZT5WLm8Fbk2k-xYj5UeOxZLvKZ2n4UyxYru4FZUt5H3fm7VDBWPmxfbisoPtVNvz5IvEXwU5KKrEk5o1zxO3PS3aumWCKqWK1VTTRdO-x9ZFhu3zNKV8e2L-gporLxialSnGZCrE9K7OS_WR2jg0LpdfJ8RNA-xY5Ype_Rc7xIAGLX97jYbYycUcu1xn3ohRZ6LRNUVcSseYMhkxFivC1J6We6vpxT078envvAvBKyB1Ye6s6QOH3hOP2Jsff9MZn5Ql7Dmf9As0Xy-Y-zFcUx31jfLHBPrfT0MNH2GnqBTM0VEe1JeH1V-GTJ4gbCTGJb1iGkZ8DKY08lYBGsxbTe__W6_ZJjSkZATwbLSrtf8hfP53tb6zdnRLUzdZUfelaKuM9txl4PmJ9hlD8ipKZtLaW8sCRuO1seR1OQsGNWvpLVDmyGi4-7mVMNJuhvmRYrnoIicutn5UErPmWRopzCNM2xNaaX-bJABHCUVVjp2r0_oVFD0J-vF98BlS_Cy0DR2RCgWM5DGM6X90e8Jc34-0b4wrGVoNKdwnSiVK-b2fedPFVdPmePj858HL1rkuO23S1jDq0hxt0lb16sD3x6zDEL931UmJ5PxrUqp5ECdkg4IsPzmdaehWnF85wgxEKswPI5cmF6DfYcAfnmKGaFDSLkqr9i6AhAWd5xEEhhSea8klW6Yb8bzQ2k_Cpc-mV2lnbf4m3xEQhQbCefkTvKcwAOq4a1bNq-xbvo81TVo9sbEODUh6VxeoGnCrDxweP1DYP8ZKjEU2ZpQ818UAnFe1HqGchtKtUQOmqUjBdx6-hEuMeNrkuroN3DU-_cbTM6u3WYc6IXf70J4F3s_GufuQiZyJTN744Bl06_tF-4tbq9Q6v7Krqne7bldoV9uakWg6c3-nW4fiM33azg=w1920-h913?auditContext=prefetch">
         <img title="Turns you into a frog" src="https://lh3.googleusercontent.com/rd-d/ALs6j_EM84HpnBF5XCB0oZixOXoKJ08tshpU_mbITmvQZEwd7m3jPeBwC1Hu_5O306lmSyUJtXC4gmTqRQp_sIapI3iDK3yABk7JmFyzS4HM67pJKPA7kVCFAEjiKlZcINjJ-GM--zcXk7YH6rlvt0gD3-iNrSCf3TujL3Mmnq63ez6-4oODq-IJmypR2W3qzTtGtiYZ6bNng3kE8AKQVmSUjEJV54CAABwx4cFX9HUMFQeiRWWDuRW9fFcZXsskdLatwHAy6wIclx0-d919WKIytgoX348IdUf8MAqINohZ9186TOZz_LjYZyO8UHA42u6us9VJPLd9qKh93RxzG_1HWqgIou8Md7Ys7oxuH0-hXL_zeGCU760t9AvUNJKD2H_CABK8CH8uCKclHksejPSzhQsONR5FdN86BTXDT7zo5-kVQFd-B9H8eULX3zkX4wvaVzxNwWFvIdhOZWX7GPTd4kyXRztUXo0h3piMpfk7EclVvmBfigxxcTJfyjrjD9q5vhcYMlIb3fHdXIUvYjeViedGtaqN_LygMWv3_nTejtiCpdDs15lB93MNI2XR49A-Eoc1OW0PLjUYCw0UzdRu98kJ5_zD-Nbr3JheGl53RskB1vK7OX56x3Eh9zgKrxWgYSir9rXbgVY8le7mLZ_rMwqsuxZUYx5Ao9FmWjHgjO7VZpp8wmz3o9cxnrUKBELEuLZeVoTP2vVteaMa0ZRFtALYolYUQh8vDfD76Bi_JxMGUe6Kv2RyzBzfHv1vi-Ao0V3gtq4HV8BkiLerMiSJur7FAe1mv3FuKL5ESAIaYQEuNe5I670hqNvgIkdKqrhTRMZ7fxtdrqxwfh3enY8Zacv1XxjLRj_VUaPvtZAGJ7go0VDFMeFkYABg3fs6tEoAdXmpBHNAE-3g6OSRa4obdVGD_kgJUPF7hzsmAyUMdAsH1B27pfsbNEX8KYBL2sdUvNnDcIPu1eKjaovMKwSi4_3_qr7RXcWzfD0X3_T3wZdCk6_3sy2_UuyOUwIJ4XX1n9b5Aiq0XLfbkKkmCvTTXsa-9ImSJI-zTh3sgNh20vnqiem_OKvdE5v4IObBgBU6cjkf21EqXk_wad9gaQpDv_XAJ766kx7_wq4m8Rfyf6NSEaUWBIiYTA=w1920-h913?auditContext=prefetch">
         <img title="spooky witch" src="https://lh3.googleusercontent.com/rd-d/ALs6j_FBLvhJsTsrXjbGTK0qQiTkxpO5h19CT4r7GvKJpZVHkuYNz0PXxp7yN0YREt_T5rCBdzfxtc92O6wl3m2I6qKjRysdVqijFG9LY48V1partwH8SfT9pj6ynIYJodbso8M1uOJb8Rj542MA6X8PZOKQaeNYTKU51cogQIojHdHBFIMV4oYl_N04wkDyyxWQGMGHrpsTW3I8Go3IXanMHQWhEcvKqqH6ioJ2fwlqS9Uecb4xbNuP_SrAo1lQ91SLdZy60B4cXtlxmiyHOrdoHLSkR0hEf4_xYeYxCWy1EesESNkJW3k5cqkqgKb10Qnw_4lgNpwpMHu_UhZLr_HOX6ScTeP7orLnSkN9l02ZJVw3XDQlJ7gdWK8CWQ6srhyq7Fl2f_wnrpoDIR-7YH_agk47eZjjThmoNkZHy76vUox2_mXu4GgE7cSUb3LyGzHMe9fy9qlNg4Jke-K_R_y7_8FsEvmfrnXyhfKshsJDCu_uGqC4S_nJ5OwelYKuGKvc65APtKVMFa_uHGx2ObjDUGmxpZS7jeC_OE21i9oHdL35ecstxKblLxGwv5WPY1ynTL1vIwUI05K24AXlgdnG-N_EKJt7J053w2Uu5yPB8clNgjwnmHqAx4JNZEHkgXgOgwJpKgCDe_Vr2lsTz6Nd8fc59USUGDUDHvbWZ8v1mmtVaAhEG6jwFzMUykLu7UYXvrZeeaUBwYuVjmnLaqgAJBzcB31GmIK-QnoyEBqVW_OmaiVstvOuRemfnm0I1NiNFccNmCqE3m4DwcMvgHiusCuVnijuLxX_pYaySutbln5exfSSDMcFt1d4P_0s3_tqyvH9hIIWJaO0xoYyvGRzAhmB8jGHbg4PvUHb2RhcxM4aJ7iHj4bWsTjpcvOErjefNn4tduqNObVrOsYn8IGaLaB2WQfw3PCOKebbbD2iYmnCD6rHhl8wpuuQi5Qm0WNjRC52J8pjRmfnmKNR4H8GYO8hNNhFGyAq0Rd5gLsJT224GEMtrLn0xOQWHrfEqRTlxm535iTnAZM5py50WIBw4TS7_DQ1Ylrfhszr-C1UuvE_HSCKaURNo0swXOVfIecJO_yqNir_fp0AcIgskUI2s3hjSKiMnqG5zQ2Hmrn_S2cwkJEvvc2g=w1920-h913?auditContext=prefetch">  
@@ -66,9 +67,19 @@
         <img title="Rush" src="https://lh3.googleusercontent.com/rd-d/ALs6j_GX7LhjTAjjsNkJLnKOV9a5cc539Jnj1I3XpZJDMBdM9BncG2rBbu7YFMOAA1dXM9o7UsBihcaRLY81mG8rH-8iNdQjkyI24eXxXHiqp-dhF3bq44GPrMU-gLXKEOROwABRnWLlb54GamHKXRjsrEGhZgbmf7imZYD1W0tNZH7XPHVpUd0cHO_lp-v5iL6CRumYzKJe_t6iU4X5YZ9zRmNn67kIl18cvPP9Ok-EIUb3VyJf1xFh5KjMo4QwIZTVMWpKEnOl6u225r1YCcQv_MJgZ9mtOpQZ1nxbIxSiyhVD2kFhQOM7cwjHmwXokbrIzyOHKszzG9q24yro-K1bbR9h7nrpyKywlXciEMny5ROSDJUNmZiwY-OlYiXn0eYbGl-qxn4E1h_RQZ_0JXnVN3MqECfcKVb1QRPeSdcegcPYJB5hmHESyF0gqGMNMbXDQMdPBW2XtZOQzaYuKF-lQL-wpMFaOtulwH0_BQ3KecYERJCQdrzFqwHSrYGlBe3zCGxi3zNwNhp8sFgqr8X5uoQfit2IjLkGM3W8Tba57EHcQYyGiNHEk1LOgfISSIGhPR0utViLWImOlyJS-u30ogoIpZFGNMO_Luxi4SSmKflmSZHE2lR2TPFmp8AZhGOfgQI2ootU8k1CxAr-06dqe6s_vFY_XM1d21dBfoeZfHEvpqB2MINUU3knI-_scCCUQNQ7SlLJ4TDWR0D1FYMCAhVnfBsonF2vxmx1TxaURiok-9p-x404UfJecPQKd4WhT-QwDJB51iXJQAql34XFukrYVeBZfFP8ZSDkZjx1mCkLa4BPEZxZWAzFqWGd-lA3E-gbNYtd1R9hBfZahcW59xssYhKHD_mfWvJgk2wFQ8UoVpZsJ_r3dwUTuztckkyE9nRrnlsiy0F7lIHP-p1EE5AH6qlDit6El1RXGFjZ82RCHuZU7IdI13MYL3fML4qG5AIz9I5o81eWqSsds1yimwIfMIU4EjnQDoMZdn5cKyae-pTRsRLl0AORGeeIwYzhKeg7vm0smgU3ZG-I473R8aFaQCQK99EqNyZ6CCNd3YwEZ5im9tJ3Q-NE2AkTY7RLPECOqYQ7Xey2IeD49-Ydptxz6Gv3Of6AY1b-IY0xOHqP07t-rZY=w1920-h927?auditContext=prefetch">
       </section>
 
-      <section class="header">
+      <section class="backbtn">
         <a href="/index.html">Back</a>
       </section>
+    </div>
+    
+    <div id="img-viewer">
+      <img src="/Art/candledeer.png">
+      <p>candle deer :3</p>
+      <div id="nav-buttons">
+        <button id="Left">Left</button>
+        <button id="close-viewer">X</button>
+        <button id="Right">Right</button>
+      </div>
     </div>
   </body>
 </html>

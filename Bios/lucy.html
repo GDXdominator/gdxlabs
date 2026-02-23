@@ -7,10 +7,13 @@
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/bio.css" rel="stylesheet" type="text/css" media="all">
     <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/Scripts/gallery.js" defer></script>
   </head>
   <body>
     <div>
-      <a href="/index.html">Back</a>
+      <div class="backbtn">
+        <a href="/index.html">Back</a>
+      </div>
 
       <section class="card">
         <article class = "topbar">
@@ -32,7 +35,7 @@
       
       <section>
         <h2>Appearances</h2>
-        <article class="gallery">
+        <article class="gallery" id="gallery">
           <img title="Is this thing on? 1" src="https://lh3.googleusercontent.com/rd-d/ALs6j_HXFUGRHqVo3Au_A0ztxn9qrNWxD-W0SNB0HgB0A3AyUv5uisaZGHJNKtR0O-wVAQCxs0umGjEl7-WAJw8T73ftE3gsmPFryVN4oSuZ2E-cjMRb-tPbwhBJGXoFIcA9x2KhqlgIOhL29AgcHcTdUSYUxor5o7dN4Y1g00dRzjleUs5hCQHGfozY4_y3iTY3F3_RjN4pi77jWYMbP2wq9JFveS7kK0Hwvdj608prcVYoeDarp76vXjnjDcBZxu_Lr-cCyWl1yY2wNVwRB6AJbpcoXdZ9lpzKLYq83OXBNXXN7QAk8E5OjQDBqBD19O9KMMkgJqBIyj05qoXkXStP0GDm4WqphtQAvyctmgmdJAhuuQwT4Ho7yJQk8fLpoaZ0RUWqQkg06ZpcjTHXrp7SdrjjaHObEKRcjraqoWWda04FCvxAA-L-lFvhyhnlEOrdmBC02ibhiVdhEGcmOj_cFWGNZJvfPYz1j9SFeUoGbU2cA9gz72-WDKRNtigi7iRhd4DXBYYWb2zcoLAAJx2p-fD--74i9-OHWXm1t8_IGmEGio9EJPJWuz6ZxdUl-qvKNsxAoF9bXmJ9SmIBBh2AAcH-m9RWWR1OtbC-XHTMCzrL0Vo9pAkEO9P8MTltQQjQu_GFEpAa7Vg7Fg5-1IqQKvdywUf7GEIoOd-CCxnSICZoIkAH6ZB99-cl6Y_AQKQEB321aIWLtoiZqaMWpeyufljkLkWQ45cWHMJA7IppiLMudc140_bFBhs6Z7CfFZ228jyZwp0WUop51ZZAjsgKw1UgY-iVEVrAsHaxCMWrZh-gk1pbOqsripmMz_A44mruOCvlQMbPqZnhxpeKccT00ZX1rvyrXm5O3ekOopuu5xjOhnw_HOT96RZ1IuQg-bQQz6kHajmy-jm509ChFSSEqMnhas3_oc-z9guFNfT6JgtGOu4XiFOOgFoZFsSQE5su9HnMNsYsT-t8kFJvLlcN79uZqG-Gli13Z-Vckqxwbx96tDfXK7pV-KdfS-ExhXKCHYckS2i4UEGyONs4gxJwDHV9ZI4_sZsmzxdnr-4hn-AKxDLHodNf0n-CPI5sWtZCIf2i7ClkBE1V4dd_0H-y5wmNElp_2gN5j6HFdu8MVqBRAgKXpe7RVg=w1920-h913?auditContext=prefetch">
           <img title="Is this thing on? 2"  src="https://lh3.googleusercontent.com/rd-d/ALs6j_EV759sUnJD0Eib-vpz_hdsmIWS2IIZpKrootABfz87Sjk_5GLzLU4R-mBrQFgLyExFVaWcFvmEll3Ix9Z4w9mVBv3G0n3HuAqkwOZUOKlVILbhvlhMCjor6MDsDlrRHe1qUjBgnhXBBqYpQkrtDunTDyI3ALUpO0BiY12PNcHTw12iMKeFg-Ypl7xovOKvOtsCdkJiJGFHS5nMXCnjI97UmFx1eNsI1ujHCMwQ9rR3DJa7qxwRtJ1UTNiDfcczVqiWgLHJS-k602_9_Jzw1hGzB27HRkJFxOMYDkFgVucmiT76pkIO-aq06JtD2ScH1FVrSXsuKsscSkRsOzFaH6qobvlNTUUeGLEylCUoLz5vSWHoDY1NrOrHvssWYCYivvLezz_zCYqSfoljSju4T29mbvM2MQRFttCLwvVGSz90gneLNNulCrqOVNeEn6hFaPmmzzuYhN6P_EMnZtE8Rdmd2QFs6LXhU8eY1hDzKmQTDzhTKUsyyA4ikqOiC667YC11WvU1JbWKa5-GVq44VUQdrYMVt1P0-y-TXtdHkdNeBvLicRa0r7s6tkRpv4p12UEzKV8Kp61qMeRpHSwRkigc8_fmLBAhBrp6oX6ihTUGkilCXqlBcVrTIRhcELoUF-HdQUdXE0tuJU89cd_Ijx19V4w9PTZ2RZcuk5gtsMUA5TY04ew4O0Hx-2aDSBZN904iD_pnhbVIYCHOcGTs5h0_ZWnhaDaUMOyojvCh-Y5lt4l-GEZIAXqSmgIR1i1AF1ur6tu8vMsP1daJd7UImKZKEdtkwM9RGfM97CRws9KXC_P282BxBRK8T3SXtkmqxp0Qb6Q9Uw3T0p3wdl6KxYqmFUSdV_FGCsKlL5EkIZt8BLGNbF6HQDxAWSzkpIkwY71QiOnQMxMu1qFbgcT9sFc598rihbvdt77xgPwqeWPqr77eEjLjL5d9X_yigl8hgW986vWgmsHvhPmY6nYfk-iQmwTkacfo1WbJ3MzwM2tvBL7xOLbLdZkBJVhTFcc-xx0c-_JLUzFLN6OW22R6ooCtIjAALQ7OxsMitJgqIyhns6T3vksza7onlxwSnJ7vmqrwpcGl7576vgBWzVFU0uMCEUZbRfksIQ6ej812n61uPJXfssG1RA=w1920-h913?auditContext=prefetch">
           <img title="Is this thing on? 3"  src="https://lh3.googleusercontent.com/rd-d/ALs6j_Hhy8ihKWmqP7QnDQZdKSgJbVW8MC32qy_KQuNNJk1BowwsnauOdY-DEgJW5PHqlKvgTH-B6lWSTbs8ZIECRp7glC3VTqhd2qU2PuZfQhceYRB0weCn-kzZSFSvv14SWQKZVMngVrthnJZg1pHYJnlPMZtfM4NnbeTI3IgHxo4NSTrWp5ebQYDI9xUWXRcjLpfEv1i9pg7v5TuXx6W7zlZyAhXTJmknTOWk_tdPP7d0qXbW0bk8bmQGuaVvkgoe2sGbF2FoQRfLwR7Ir1fFNJYcl1jcCo0FFlxzLw6fC5xd9HEREtVOj2nTRpwfUtbdyBHvuKAhmw_FFHxD5BDNtjMaYgWKhZ_pOjnQCLqBmn3nmOXi4LCDpmAEpdrZhBZ7rmVrvPP567YpM7Voz7xQXqzRakwYRzl2alsl-DN8WAhhyhlZrOetNijOqnlkMnV2AkGXgseSEYf5P3FMuqQO_K2kO8iUJKKiRrBs3ES_c8B7ajvvGGagIgieuzl7Y8Aty9XLYF8qNEbV9T94_9gnPjfhCJIfCaob9pJk2JyNiqddekgSghkKUqIpPauLp1uz9WTKWrEUCXeZfR-C0vANwlx5vDYKuFkB28dHRlwooulE53hJy8WjB4WLziVLw6oGEXinH7A_g4a6lkNCITtPimdNZ-HNHRBqHrFksibmJKOoZNqfPAl1lrMJaREF0TB6X7lqDE7GiOZJj8smb7ErNhwwjpgX3pQG1iig6a2oM-iNVifOinKrNY9_TbBXJtl2W9XYyBTlFdZOMhvg00BUprkE5RUa7PUln4Pa3srfgMDoJcmn6fiHGGTeZ-eF4tmFYLJpuE4o2ZZ1MmGcIKRZkAaWrxLVTxpWMkOCcQBCYdL9dUOfrG5gxlqOXhHfZx5wqihluH6h4Vb7K3ww4qBH1G9mu8w4bd8Y2GTMtA_n5E7PHhXZ3wXWN2uTj3idCOlJpxEvTCA8r6Pi3Uc2WfpUm6XH-7dXmoGcL6Zgqxu1NLjMpQbc3UomHsDh7K-VLqErPgcUNppAoJY27wWr6_MMW1UNucAyqo2h-VzhaIZqJJj1kDl8873Gsy0qUTZ7na5Gv-LG-JLdll8G9qG6Hgp1dC20P44r5E5ZuPL9N55e5O5dX7rl3RST=w1920-h913?auditContext=prefetch">
@@ -43,6 +46,16 @@
           <img title="sabotage" src="https://lh3.googleusercontent.com/rd-d/ALs6j_HlTuaw44orqwDC5rUbl-lFIsFZvPJ5hlnnZPleeNrDgDn1pBeetuvf0oPxe12ET8E9tAF3ZaFqv0DVFxMwuibWYimYQYEri7cC7OTm4MDvbm-q8x5jlqSnfzY4p9kK0kWb_iwUcCIPJCisENdbe3PTOfYINDrxZOfJJw3n7H8oQMa5hZ1Tp6sclG_0YAlEn7BGflp-pSJSo59Eb4uUSZ-M2FIti8TvfbrfIIR6pEINS2vuqvbaVbmNwj_C3vBpsox6bfYITCdS9s9K9VmXH9i-zI-bhHgOM9VN00tESvTwswcNWZG8EI3pE813eKFrc9hJl4bpgj3z_91nH9PYPa_IsnWCKUlqs5FkTtz7H4SXn0vQD3Xa8Wl9cDvXwwdrEOLTviA5iIqlx_a00xdBJ7VIcASaUk8hFsEhAEL4JprED2JV3fGyz8j1Wnnb89nvKx2iZozBE6Wuyns4Fs0qLD0kQ6Arzjsuz2rj8dWA7zS2dBmZEVZTryyUuBknUaLtnrZrt7rGDrQAY2Aqxi4tjJWh66uqefF7w7bEQ9gn1XZsMRuTMCTlI07h8_qxvkwQcPgdpeydRv5SO-hT9VNF2l561fIGCLZdqhmw-MYfGE_zFC3xiyADImg-yS24P5b8wK7ksLsDb5wtRpryg0884XIEkcjzfREeGI8EEEEWOtGuCeWQ2-RJn8SmXq-B5l_eIStBkV-1oDlYSOylR3_x5CtIQDo2aoMJCkHS4jMTXvqrgVJBj6lOmtYq0US-a86jt1kk8BrvDGJSPmvGChgSYTeCzuMIPnvOB1KC8134Cbx2RFvseWk6wxGhsb5Boud4lONxb8B8AYFfQsahBIU_K4FU-GIiysXXuh195QjKvqDAwtxPq770i8nqiTPz7TPg3A_-LrY-Y4Km9VCEx_dnUslmnF7Bgm805wXDErmd38XVCDBsrkUZkNwXUmQ-hmcVPMhxmwOuVgxdKx-eCmwpTSBqA6-bAU8jOoPQKKY5XwzHCBVw-BTo917E1sRNljjcS_8iUi1FF5cgCinWQmHZr2Hn4Rt82NuVqxd9GAKDq_DCWmJSXkxfqoHjCU77ThFtNkmJCRZSxCjW4uYcYoNtufnkMK4Ov8OxrSKJLE6CnOniyrQITH31lw=w1920-h913?auditContext=prefetch">
         </article>
       </section>
+
+      <div id="img-viewer">
+        <img src="/Art/candledeer.png">
+        <p>candle deer :3</p>
+        <div id="nav-buttons">
+          <button id="Left">Left</button>
+          <button id="close-viewer">X</button>
+          <button id="Right">Right</button>
+        </div>
+      </div>
 
       <hr class="section-divider">
 
@@ -60,7 +73,9 @@
         </ul>
       </section>
 
-      <a href="/index.html">Back</a>
+      <div class="backbtn">
+        <a href="/index.html">Back</a>
+      </div>
     </div>
   </body>
 </html>

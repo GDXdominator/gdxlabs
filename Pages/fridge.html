@@ -6,21 +6,32 @@
     <title>GDX</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/Scripts/gallery.js" defer></script>
   </head>
-  <body class="fridge">
+  <body id="fridge">
     <div class="header">
-      <a href="/index.html">Back</a>
+      <a href="/index.html" class="backbtn">Back</a>
 
       <h1>The Fridge</h1>
       <h4>For fan art to hang on the fridge</h4>
       <h6>Hover over images for the original artist!</h6>
     </div>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <img title="By Adelaide Co." src="/Art/Untitled1242_20260130012733.jpg">
     </section>
 
-    <div class="header">
+    <div id="img-viewer">
+      <img src="/Art/candledeer.png">
+      <p>candle deer :3</p>
+      <div id="nav-buttons">
+        <button id="Left">Left</button>
+        <button id="close-viewer">X</button>
+        <button id="Right">Right</button>
+      </div>
+    </div>
+
+    <div class="backbtn">
       <a href="/index.html">Back</a>
     </div>
   </body>

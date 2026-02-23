@@ -7,10 +7,13 @@
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/bio.css" rel="stylesheet" type="text/css" media="all">
     <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/Scripts/gallery.js" defer></script>
   </head>
   <body>
     <div>
-      <a href="/index.html">Back</a>
+      <div class="backbtn">
+        <a href="/index.html">Back</a>
+      </div>
 
       <section class="card">
         <article class = "topbar">
@@ -32,12 +35,26 @@
       
       <section>
         <h2>Appearances</h2>
-        <article class="gallery">
+        <article class="gallery" id="gallery">
           <img src="/Art/the lab placehodler.png">
         </article>
       </section>
 
-      <a href="/index.html">Back</a>
+      <div id="img-viewer">
+        <div id="img-container">
+          <img src="/Art/candledeer.png">
+        </div>
+        <p>candle deer :3</p>
+        <div id="nav-buttons">
+          <button id="Left">Left</button>
+          <button id="close-viewer">X</button>
+          <button id="Right">Right</button>
+        </div>
+      </div>
+
+      <div class="backbtn">
+        <a href="/index.html">Back</a>
+      </div>
     </div>
   </body>
 </html>

@@ -16,6 +16,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 125vmin 100%;
+  padding-bottom: 20px;
 }
 
 .header {
@@ -32,18 +33,18 @@ body {
   font-size: calc(2px + 0.9vw);
 }
 
-.logo {
+#logo {
   min-width: 200px;
   min-height: 100px;
   max-width: 25vw;
   max-height: 25vw;
 }
 
-.group-photo {
+#group-photo {
   display: block;
   position: static;
   margin: auto;
-  min-width: 450px;
+  min-width: 375px;
   max-width: 60%;
   max-height: 60%;
 }
@@ -68,6 +69,11 @@ body {
 .section-divider {
   color: grey;
   max-width: 25%;
+}
+
+.backbtn {
+  text-align: center;
+  margin: 10px;
 }
 
 a {
