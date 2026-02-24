@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candle Goat</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/bio.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Styles/bio.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Styles/gallery.css" rel="stylesheet" type="text/css" media="all">
     <script src="/Scripts/gallery.js" defer></script>
   </head>
   <body>
@@ -17,7 +17,7 @@
 
       <section class="card">
         <article class = "topbar">
-          <img src="https://lh3.googleusercontent.com/rd-d/ALs6j_F9eFnlx_FadmBNPHV87U_06mPc2tPEKZZs4h89-cEIB__bGtyg5IiSNfyOkBGF1LdtTd3Zg8B9rziwTf9xsPqV0DWGIfl1nVSDmKprpN2BKNCoWvZHLdUjukGVVlUHcyz8URdnqUK5l9rIac0VhZ_Ug_j3ilpeGsgRY_3_THioGF_QLN9wocSO5xUpO9xv9q4xjI_om8OTn3XV4ITSiV4Wo-sMQQ20K7nnNdyZzuMxrkZFKTe7jMAef_rlDNWIjqmnsdxblozK1AAFgMRfQBAxYtI2MW-_oGWwqmJFLnHX1w11GwXK5dmxk-ENcnif_G0_IhpJeTvh0bO-y1wlYDABMswNiZ57rCfVALyFJuS0VgvsPUaBUTL73qatBY4826whaZFZCaCZHlX3LDZDVWDeL2fiAjXXRs-0Wy9LC2kRrQOuHjgRhOd3nZeUkf1wXRyrkw69FN_G_-Z4R1DUltNdSewMxg0vCqgRPbTSja0OivBrUwCF2fq3W5RXjZP9_8g1mRgNl-2QFDlgOcHHMS8_o6lhGvCrM8wQRhNvwas1Nbo_1vN_XQ0d6wNB5IF2sFsZLxTDMhhq1SNARHH8vwpr6YJX53jYfVAh7lk3urL8tGWL65p72brk8GrwKmuIOaa9izB1gIvK9TZdLqnIDxP2MMe9l-h4_nJgHC1HaWMBSQvW4nDCleyOgy6vVa3e0NJD-j1XhqvYEaWEPcCN3fj5lN7t0o309eFKtxnKW2E6nOf7pcfCT2MG9Oal0Iqj-n_zbVP-NaBovkzibwA4SfeFeAnVY0sKZbk9HcxBGLah27MWHjbb17b8K7WI7MW5Yk1L85JI8y_vgpdGVypK7rUHfi29NbRtEysu53tB8-JF-LLp1NS4FTjEtK90MB32xEPgIZB7BIIwQ7xqIs_txmwtY1Nb5EdF4oxWPrrxkejgvIADpStsK4LoZMhhcfF1G-NK5EOeYPeYxe9ZiACyydQ4Ctybac7cond5F4ceND34y5McHBKiBShOl8LG7oGOYQ7N-rpeY3qtBulH3yfrIapob6a5tppE06xg_VlQA9CzURwfx81e1g1wUat7dDKe7hy3s9Bv8urQj1VwNqOhCA9R1E96iAZTFurp_8ClZnt3dDNfI0Qr=w1920-h913?auditContext=prefetch">
+          <img id="id-photo" src="https://lh3.googleusercontent.com/rd-d/ALs6j_F9eFnlx_FadmBNPHV87U_06mPc2tPEKZZs4h89-cEIB__bGtyg5IiSNfyOkBGF1LdtTd3Zg8B9rziwTf9xsPqV0DWGIfl1nVSDmKprpN2BKNCoWvZHLdUjukGVVlUHcyz8URdnqUK5l9rIac0VhZ_Ug_j3ilpeGsgRY_3_THioGF_QLN9wocSO5xUpO9xv9q4xjI_om8OTn3XV4ITSiV4Wo-sMQQ20K7nnNdyZzuMxrkZFKTe7jMAef_rlDNWIjqmnsdxblozK1AAFgMRfQBAxYtI2MW-_oGWwqmJFLnHX1w11GwXK5dmxk-ENcnif_G0_IhpJeTvh0bO-y1wlYDABMswNiZ57rCfVALyFJuS0VgvsPUaBUTL73qatBY4826whaZFZCaCZHlX3LDZDVWDeL2fiAjXXRs-0Wy9LC2kRrQOuHjgRhOd3nZeUkf1wXRyrkw69FN_G_-Z4R1DUltNdSewMxg0vCqgRPbTSja0OivBrUwCF2fq3W5RXjZP9_8g1mRgNl-2QFDlgOcHHMS8_o6lhGvCrM8wQRhNvwas1Nbo_1vN_XQ0d6wNB5IF2sFsZLxTDMhhq1SNARHH8vwpr6YJX53jYfVAh7lk3urL8tGWL65p72brk8GrwKmuIOaa9izB1gIvK9TZdLqnIDxP2MMe9l-h4_nJgHC1HaWMBSQvW4nDCleyOgy6vVa3e0NJD-j1XhqvYEaWEPcCN3fj5lN7t0o309eFKtxnKW2E6nOf7pcfCT2MG9Oal0Iqj-n_zbVP-NaBovkzibwA4SfeFeAnVY0sKZbk9HcxBGLah27MWHjbb17b8K7WI7MW5Yk1L85JI8y_vgpdGVypK7rUHfi29NbRtEysu53tB8-JF-LLp1NS4FTjEtK90MB32xEPgIZB7BIIwQ7xqIs_txmwtY1Nb5EdF4oxWPrrxkejgvIADpStsK4LoZMhhcfF1G-NK5EOeYPeYxe9ZiACyydQ4Ctybac7cond5F4ceND34y5McHBKiBShOl8LG7oGOYQ7N-rpeY3qtBulH3yfrIapob6a5tppE06xg_VlQA9CzURwfx81e1g1wUat7dDKe7hy3s9Bv8urQj1VwNqOhCA9R1E96iAZTFurp_8ClZnt3dDNfI0Qr=w1920-h913?auditContext=prefetch">
           <ul>
             <p>Name: Candle Goat</p>
             <p>ID: He/it</p>

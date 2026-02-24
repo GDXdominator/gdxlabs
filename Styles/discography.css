@@ -1,0 +1,10 @@
+#discography-btns {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    margin: auto;
+    font-size: calc(2px + 1.1vw);
+    text-align: center;
+}

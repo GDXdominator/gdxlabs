@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candle Trio</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/bio.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/gallery.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Styles/bio.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/Styles/gallery.css" rel="stylesheet" type="text/css" media="all">
     <script src="/Scripts/gallery.js" defer></script>
   </head>
   <body>
@@ -17,7 +17,7 @@
 
       <section class="card">
         <article class = "topbar">
-          <img src="https://lh3.googleusercontent.com/rd-d/ALs6j_FjDq-9n-mE74nx-7z8tjODV-g6snt409_50_CbMGVFN-qZhc32y8jg-7ec_XbBx85dsW3h8IeMRpkQun2lztGiPjwtMZ4CSsovFeQ63PGL5QrZjiGNpZTM9V8i_KtZXNIuzMi-mYCH6-JJxECTh_QBtan2UG7qWkDNMQOBLBL_OmN9knyGG-jDs1RRSNqutsSuiGmzbw0oDJ3wRlisG0AmBFGQ0kFv9-97TxAIXjaFRg4jS0Tj6TeAIPq8rnTReutjLLB1RvrNvO7c1qcwEeW8RaKpYSnBQv_Y8osjbeSjAsddqiaJzxa56ce8h_Vh2N7guqUNRnyvhedO9_rhlQbH5MMv135EDeOJSoaYv6MHuJDYN8wwFlCjADhqhMADfd4cHGSLCyNFCTqfEzZBt0F36ItMiVdu5-XZBhjq4oWEBkHVYROXUS_p_x4ASBwNKo0FOlWrEgWOtIhLGbhx4gaYIAHJeNlGfC4UhETOFkH5jeK2HMBk6wm0g7mdgn5kTNrWyqvC_ReVEd7xu2Bl-JRp0NQz7ao-k54ZHKHv62XD-h_mM8kc6Ax11EZ_w3BgowFK_7ocmppk1NdqpEeS-Elj88jYWbWD7vsW0446xrDOZw5WCpLbf6f6ZEPJbwXwcuoRyLXW6X-glUP-8LK1t2T0ECRLYHqSirdWyo-KIL_oEY-2KzlvCh9zsc8jf4RYHbQWjBTjdtOgTAEXeoIGmFSfX3d8-1MQuvYlecqVFBCjInNAQoa-XNHVysB2sCb_9st__d73TBQaDBissUZgkvLG-ok4dUNi_3SiLGM6maJA4dawUWheimX1783pnQOauZzn3UTkqDX3fF-zqwbtpUu1Mvis53D0FiXRIkrvcNnuQdwVuu_JTduOVxrcIgLPFN52JMvmP9WHpSoppY48WJQayJ6OPaJDHj1Nx5YZ8bJjBvzjafc1k50GuupfVJrufwGrZwZ2dbJOZ2h905DqCk614x-4iS-6oMd3x2aboFNK4TsU90JmWIWiFwyu4yaXPt_v2RJ825Me8PN9B-ZozgrHX3kZk5gNqD0v765L2ZCsjUsglwH8Krc9hiXhtxReHy-nWo-Lg_7riQ1LHB9j4KtoNRI-2it59WsH6KaLDkRzAHGMOBWt=w1920-h913?auditContext=prefetch">
+          <img id="id-photo" src="https://lh3.googleusercontent.com/rd-d/ALs6j_FjDq-9n-mE74nx-7z8tjODV-g6snt409_50_CbMGVFN-qZhc32y8jg-7ec_XbBx85dsW3h8IeMRpkQun2lztGiPjwtMZ4CSsovFeQ63PGL5QrZjiGNpZTM9V8i_KtZXNIuzMi-mYCH6-JJxECTh_QBtan2UG7qWkDNMQOBLBL_OmN9knyGG-jDs1RRSNqutsSuiGmzbw0oDJ3wRlisG0AmBFGQ0kFv9-97TxAIXjaFRg4jS0Tj6TeAIPq8rnTReutjLLB1RvrNvO7c1qcwEeW8RaKpYSnBQv_Y8osjbeSjAsddqiaJzxa56ce8h_Vh2N7guqUNRnyvhedO9_rhlQbH5MMv135EDeOJSoaYv6MHuJDYN8wwFlCjADhqhMADfd4cHGSLCyNFCTqfEzZBt0F36ItMiVdu5-XZBhjq4oWEBkHVYROXUS_p_x4ASBwNKo0FOlWrEgWOtIhLGbhx4gaYIAHJeNlGfC4UhETOFkH5jeK2HMBk6wm0g7mdgn5kTNrWyqvC_ReVEd7xu2Bl-JRp0NQz7ao-k54ZHKHv62XD-h_mM8kc6Ax11EZ_w3BgowFK_7ocmppk1NdqpEeS-Elj88jYWbWD7vsW0446xrDOZw5WCpLbf6f6ZEPJbwXwcuoRyLXW6X-glUP-8LK1t2T0ECRLYHqSirdWyo-KIL_oEY-2KzlvCh9zsc8jf4RYHbQWjBTjdtOgTAEXeoIGmFSfX3d8-1MQuvYlecqVFBCjInNAQoa-XNHVysB2sCb_9st__d73TBQaDBissUZgkvLG-ok4dUNi_3SiLGM6maJA4dawUWheimX1783pnQOauZzn3UTkqDX3fF-zqwbtpUu1Mvis53D0FiXRIkrvcNnuQdwVuu_JTduOVxrcIgLPFN52JMvmP9WHpSoppY48WJQayJ6OPaJDHj1Nx5YZ8bJjBvzjafc1k50GuupfVJrufwGrZwZ2dbJOZ2h905DqCk614x-4iS-6oMd3x2aboFNK4TsU90JmWIWiFwyu4yaXPt_v2RJ825Me8PN9B-ZozgrHX3kZk5gNqD0v765L2ZCsjUsglwH8Krc9hiXhtxReHy-nWo-Lg_7riQ1LHB9j4KtoNRI-2it59WsH6KaLDkRzAHGMOBWt=w1920-h913?auditContext=prefetch">
           <ul>
             <p>Name: Candle Trio</p>
             <p>ID: They/them</p>
