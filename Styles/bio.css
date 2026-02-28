@@ -16,7 +16,7 @@ div a {
 .card {
   margin-left: auto;
   margin-right: auto;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 50%;
   height: 45vw;
   min-height: 300px;
@@ -24,7 +24,7 @@ div a {
   border-style: solid;
   border-width: 2px;
   border-color: white;
-  font-size: calc(5px + 1.1vw);
+  font-size: calc(4px + 1vw);
 }
 
 .card ul {

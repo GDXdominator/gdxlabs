@@ -68,11 +68,15 @@ button:active {
 }
 
 .bar {
+  background-color: rgba(134, 172, 243, 0.25);
+  border-style: groove;
+  border-radius: 10px;
+  border-color: rgba(134, 172, 243, 0.5);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 55%;
+  max-height: 55%;
 }
 
 .bar ul {
@@ -82,6 +86,49 @@ button:active {
 .bar li {
   padding: 2px;
   display: inline;
+}
+
+.bios {
+  margin: auto;
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5px;
+  align-content: center;
+}
+
+.bio-link {
+  background-color: rgb(123, 126, 255);
+  display: block;
+  align-items: center;
+  min-width: 50px;
+  min-height: 50px;
+  width: 8vw;
+  height: fit-content;
+  padding: 0.5vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 1vw;
+  margin: auto;
+}
+
+.bio-link text {
+  text-align: center;
+}
+
+.bio-link img {
+  aspect-ratio: 1;
+  width: 8vw;
+  height: 8vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 1vw;
+}
+
+.bio-link:hover {
+  border-color: rgb(151, 234, 255);
 }
 
 .section-divider {
