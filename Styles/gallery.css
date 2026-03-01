@@ -18,7 +18,8 @@
 }
 
 .gallery img:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.025, 1.025);
+  border-color: rgba(182, 182, 182, 0.781);
 }
 
 #fridge {
@@ -52,13 +53,14 @@
   width: 100%;
   top: 92%;
   position: absolute;
+  touch-action: manipulation;
 }
 
 #img-viewer img {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  width: 37vw;
+  margin-top: 20px;
+  width: 32.5vw;
   min-width: 400px;
   max-block-size: 80%;
   border-style: solid;
