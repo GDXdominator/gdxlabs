@@ -1,6 +1,7 @@
 #discography-btns {
     text-align: center;
     padding: 10px;
+    touch-action: manipulation;
 }
 
 p {

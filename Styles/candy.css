@@ -1,0 +1,119 @@
+body {
+    background-image: url(/Art/black_one.jpg);
+    background-size: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: grey;
+    font-size: 2.5vmin;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(65, 65, 65);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#homehead {
+    max-width: 80%;
+    display: block;
+}
+
+#id-photo {
+    aspect-ratio: 1;
+    max-width: 10vw;
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.center {
+    width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.subsection {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 50%;
+    max-width: 50%;
+    height: 25vw;
+    min-height: 25vw;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 10vw 10vw 10vw;
+}
+
+.links img {
+    max-width: 95%;
+    max-height: 15vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 10px;
+}
+
+.log {
+    width: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.log h2, h3 {
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+}
+
+#creature-container {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 75%;
+    max-width: 75%;
+    height: 50vw;
+}
+
+#creature-container img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#creatures-list {
+    background-color: rgb(90, 90, 90);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 25%;
+    max-width: 25%;
+    height: 50vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#creatures-list p:hover {
+    text-decoration: underline;
+}
+
+#id-photo {
+    aspect-ratio: 1;
+    width: 20vw;
+    max-width: 20vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    float: left;
+}
