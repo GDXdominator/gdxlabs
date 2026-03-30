@@ -1,6 +1,7 @@
 body {
-    background-image: url(/Art/black_one.jpg);
+    background-image: url(https://f4.bcbits.com/img/a2341803756_16.jpg);
     background-size: 50%;
+    background-blend-mode: difference;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     background-color: grey;
@@ -11,32 +12,66 @@ div {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(65, 65, 65);
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+}
+
+a {
+    color: rgb(175, 175, 175);
+}
+
+a:hover {
+    color: rgb(200, 200, 200)
+}
+
+a:active {
+    color: rgb(150, 150, 150);
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1, h2, h3 {
+    padding: 10px;
+}
+
+.back_btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: none;
+    width: fit-content;
+    margin: 10px;
 }
 
 #homehead {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
     max-width: 80%;
+    min-width: 450px;
     display: block;
 }
 
-#id-photo {
+.home-photo {
     aspect-ratio: 1;
-    max-width: 10vw;
+    min-width: 100px;
+    width: 37%;
     float: left;
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .center {
     width: 80%;
-    max-width: 80%;
+    min-width: 450px;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 10px;
     padding-top: 10px;
 }
@@ -45,24 +80,30 @@ div {
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    width: 50%;
-    max-width: 50%;
-    height: 25vw;
-    min-height: 25vw;
+    height: auto;
 }
 
 .links {
   display: grid;
-  grid-template-columns: 10vw 10vw 10vw;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  column-gap: 20px;
+  text-align: center;
 }
 
 .links img {
-    max-width: 95%;
-    max-height: 15vw;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    padding: 10px;
+    aspect-ratio: 1 / 1;
+    min-width: 75px;
+    width: 10vw;
+    margin-top: 10px;
+}
+
+.links p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 75px;
+    max-width: 10vw;
+    margin-top: 0px;
+    size: 10vw;
 }
 
 .log {
@@ -75,7 +116,6 @@ div {
 
 .log h2, h3 {
     background-color: rgb(50, 50, 50);
-    padding: 5px;
 }
 
 #creature-container {
@@ -84,12 +124,13 @@ div {
     border-color: black;
     width: 75%;
     max-width: 75%;
-    height: 50vw;
+    height: fit-content;
 }
 
 #creature-container img {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #creatures-list {
@@ -99,9 +140,7 @@ div {
     border-color: black;
     width: 25%;
     max-width: 25%;
-    height: 50vw;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: fit-content;
 }
 
 #creatures-list p:hover {

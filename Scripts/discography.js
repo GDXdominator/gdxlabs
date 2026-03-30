@@ -11,7 +11,8 @@ var discography = [
     ["GDX", "MADSCIENCE", "2026/01/26", "Album&nbsp"],
     ["GDX", "Rush", "2026/02/14", "Single"],
     ["GDX", "An Ethereal Rhythm", "2026/02/28", "Single"],
-    ["GDX", "KICK KONG VS. KICKZILLA", "2026/03/08", "Single"]
+    ["GDX", "KICK KONG VS. KICKZILLA", "2026/03/08", "Single"],
+    ["GDX", "Ube Mamon", "2026/03/14", "Single"]
 ];
 var chronology = [
     ["GDX", "Drowning in Reverb", "2024/05/09", "Track"],
