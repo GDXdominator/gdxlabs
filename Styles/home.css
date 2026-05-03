@@ -68,6 +68,12 @@ button:active {
   max-height: 60%;
 }
 
+#comic {
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.5);
+  max-width: 80%;
+}
+
 .bar {
   background-color: rgba(50, 50, 50, 0.25);
   border-style: groove;
