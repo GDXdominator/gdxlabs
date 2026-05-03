@@ -12,7 +12,8 @@ var discography = [
     ["GDX", "Rush", "2026/02/14", "Single"],
     ["GDX", "An Ethereal Rhythm", "2026/02/28", "Single"],
     ["GDX", "KICK KONG VS. KICKZILLA", "2026/03/08", "Single"],
-    ["GDX", "Ube Mamon", "2026/03/14", "Single"]
+    ["GDX", "Ube Mamon", "2026/03/14", "Single"],
+    ["GDX", "Snort A Lot More Crack", "2026/04/16", "Single"]
 ];
 var chronology = [
     ["GDX", "Drowning in Reverb", "2024/05/09", "Track"],
@@ -30,7 +31,8 @@ var chronology = [
     ["GDX", "Ube Mamon", "2025/01/24", "Track"],
     ["GDX", "KICK KONG VS. KICKZILLA", "2025/07/12", "Track"],
     ["GDX", "An Ethereal Rhythm", "2025/07/21", "Track"],
-    ["GDX", "MADSCIENCE", "2026/01/26", "Album"]
+    ["GDX", "MADSCIENCE", "2026/01/26", "Album"],
+    ["GDX", "Snort A Lot More Crack", "2026/02/21", "Single"]
 ];
 var discographyText = document.getElementById("discography");
 
