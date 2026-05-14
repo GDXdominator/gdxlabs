@@ -35,6 +35,7 @@ button:active {
 .homepage {
   background-image: url(/Art/bgweegee.gif);
   background-attachment: fixed;
+  background-size: cover;
   background-color: rgba(75, 75, 75, 0.5);
   height: 100vh;
   padding: 0;
