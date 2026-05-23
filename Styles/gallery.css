@@ -37,6 +37,10 @@
   background-size: 125vmin 100%;
 }
 
+#tag-selector button {
+  touch-action: manipulation;
+}
+
 #img-viewer {
   display: none;
   text-align: center;
