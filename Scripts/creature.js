@@ -74,16 +74,23 @@ descs.set(
     ]
 );
 descs.set(
-    "Melvin", [
-        "A death metal fanatic who runs the forest's \"Super Awesome Metal Club.\" Melvin is the Candled memebr most immersed in city life and culture, being the only civilian of the Candled to own a computer. Cool guy, we've known him since childhood.",
+    "Melvin O'Hare", [
+        "A death metal fanatic into some weird music who runs the forest's \"Super Awesome Metal Club.\" Melvin is the Candled member most immersed in city life and culture, being the only civilian of the Candled to own a computer. Cool guy, we've known him since childhood.",
         "Nice guy, really. Just don't ask to see his CD collection, death metal fans see some nasty stuff and he forgets that sometimes...",
         "https://lh3.googleusercontent.com/rd-d/ALs6j_GPMxJ0goPht7p0c72_JLvEfZxlU8BprmRyCfD9bpsZVib_T9L_N1RRpN0sA4MS3_L4_pnbf3_8ir_Ge3q0is8HX1Icm3Dkvb3Iu-b7YyoP_57wnI0JNXWmNY1oW2SVQQTDqKuxe-Di2WfqmwlTUjyHx5B5fbfo-FUqlG8n6ZSGjvztvLNqqAHsDXt5pBbDW44qA6WtL5bJckTi8DhXnOiCs3jWeuIYv8ranX-G7VsuU5SkQfyyzijAruO27WZYlUpueOESO5M_XaIFxCIgtxGjCwdtgmleKdvxu9tGe-Aux1x3-CLN5IkFjpmipD-m45SkZx6cn_Sdby0SbVLIOx27F6RK7aAktHF0jVAKxJgBWO7qhqczFnbPx_MWD2kgc3B5MiUZRaFUwOZYGJ7WCDkLcyre2P11ZJFW_8u8K1vk_9BA64h_u1CAnZXungVN6qlPu8GEt5VYUFWpAfD4vS3rDhJY-csKVR3Rj6nIDWtDF1Vix022QMcZiBbSVMqVF7twZfmZNyCWn9RwXcfV8mCNHxDQ7rFO_580Cj1pXsdiZXGyD2OfX0yk4FVBnupXIYYL28uwnbAIyzoD_IY3t4XwtsLGRGBc6F4ldkbQoQZ9cnvBLl__CjZ5-LdpeRNlpHNc4Gz0aV6M8MDaRa9rTKAHgSjuUwf45g-uo_4aU4WG3jDXLXMJ4XACtAGmYfTz3Zrpjvn9vsFH0EeyLDQguaVLe9jk-XiOncSRTJP5SycdXWe--wfy0KwZXK1FBlWjX0oVADdOBD3rmAGS66MctD7XDpCR5Y9OyQVY8Dn8OaS7x6QFtcbrpmig-ozlOdgOZywIorSySKC8oraHjUKjBKlprLr9bScjX4Vl_h5k7gZ40jqYrjpH1ZhrGt4azi_yvbsjqlfdUwvFg3cg6psWHzeLvWirIJhyCIkSfaYw9MtsylNi4oCOzv2xtVFOVxLbsQmjoU5l82-AIXcZWYbrr3oduBMwPhvihoj3ePBL67BCzC3eLJio-ZZrt0SUELac7iXGkt9eLvmrhZAWO2XnGwahDJ4AIdwSkit7Querj_JJBuem8ty1oFh5ErJZ03Ccy1VLxLA_M_OdKLymYWUzq-bEkHxr49BRjpuTcEDeUn3Y5jhcVkNOZ8tbBZjAM5m6BOj1_sCiAOFlrBEkvA2xWA22juE1iC5bmh2iJ1A=w1920-h927?auditContext=prefetch"
     ]
 );
 descs.set(
+    "Boris", [
+        "Chill, death metal fiend who runs the forest's \"Super Awesome Metal Club\" alongisde Melvin. Both are two peas in a pod.",
+        "nothing",
+        "https://www.southlakegifts.com/cdn/shop/files/Fox_Candle_1100x.jpg?v=1756271125"
+    ]
+);
+descs.set(
     "The Candled", [
         "(Written by " + link("/Bios/julie.html", "Julie") + ") The Idol of the Forest of Doom (and Darkness) was a deity that lived long ago and created a subspecies of humanoid animals that underwent the “candling” process, a ritual done after birth that gives them a self-sustaining candle growing from their forehead and a pupilless gaze. These animals would be called \"The Candled\" and they believed that the Idol gave their society fortune, prosperity, and protection, as life in the Forest of Doom (and <em>Darkness</em>) is one of many dangerous creatures and entities, hence why candle light became a symbol for the Idol. Those who followed the Idol were to be dressed in robes and pray to its altar daily, lest it become angry enough to let misfortune roam the Forest of Doom (and Darkness). One day, the Idol was defeated by the Towerman, rendering The Candled's religion obsolete, leaving behind only the candled animals and their cultural traditions. Come 1997 and the new generation of young candled animals was born, banding together to wander the Forest of Doom (and Darkness) while still celebrating their past by keeping the robes. As daring young animals, they were more willing to take trips beyond the forest into more modern civilization. This new generation had discovered something enlightening, something they had never heard before, something that past generations of the Candled could not, and something many would bond over: Rock music. Basically, from a long-established order and way of life now became a ragtag club of juveniles with candles for unicorn horns and no pupils running around the forest in spooky robes.",
-        "Uhh... We don't really bite, so... say hi!",
+        "We don't really bite, so say hi!",
         "https://the-gadgeteer.com/wp-content/uploads/2018/10/pyropet-animalskeletoncandle-1.jpg"
     ]
 )
