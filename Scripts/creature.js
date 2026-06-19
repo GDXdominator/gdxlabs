@@ -41,7 +41,7 @@ descs.set(
 descs.set(
     "The Moaner", [
         "The Moaner trudges through the forest as a horrible creature that looks as if it was made of nothing but sticks and mud, unable to see or speak very well after living a long, harsh life in the forest. In a constant and desperate forage for food to cure its endless starvation, it roams the forest with heavy groans and pants to hunt for anything that makes a sound with its heightened sense of hearing. I would've preferred if it was called The Groaner…",
-        "Billy, Benny, and I had to learn this the hard way: Do NOT learn about its name while encountering it, lest you have to hold in giggles. If you have a more mature sense of humor than we, then just be very quiet and slowly move away until you can't hear it moaning. Sorry, groaning.",
+        "It's important you know its name now as Billy, Benny, and I had to learn this the hard way: Do NOT learn about its name while encountering it, lest you have to hold in giggles. If you have a more mature sense of humor than we, then just be very quiet and slowly move away until you can't hear it moaning. Sorry, groaning.",
         "penis"
     ]
 );
@@ -76,14 +76,14 @@ descs.set(
 descs.set(
     "Melvin", [
         "A death metal fanatic into some weird music who runs the forest's \"Super Awesome Metal Club.\" Melvin is the Candled member most immersed in city life and culture, being the only civilian of the Candled to own a computer. Cool guy, we've known him since childhood.",
-        "Nice guy, really. Just don't ask to see his CD collection, death metal fans see some nasty stuff and he forgets that sometimes...",
+        "Nice guy, really. Just don't ask to see his CD collection, death metal fans see some nasty stuff and he forgets that...",
         "https://lh3.googleusercontent.com/rd-d/ALs6j_GPMxJ0goPht7p0c72_JLvEfZxlU8BprmRyCfD9bpsZVib_T9L_N1RRpN0sA4MS3_L4_pnbf3_8ir_Ge3q0is8HX1Icm3Dkvb3Iu-b7YyoP_57wnI0JNXWmNY1oW2SVQQTDqKuxe-Di2WfqmwlTUjyHx5B5fbfo-FUqlG8n6ZSGjvztvLNqqAHsDXt5pBbDW44qA6WtL5bJckTi8DhXnOiCs3jWeuIYv8ranX-G7VsuU5SkQfyyzijAruO27WZYlUpueOESO5M_XaIFxCIgtxGjCwdtgmleKdvxu9tGe-Aux1x3-CLN5IkFjpmipD-m45SkZx6cn_Sdby0SbVLIOx27F6RK7aAktHF0jVAKxJgBWO7qhqczFnbPx_MWD2kgc3B5MiUZRaFUwOZYGJ7WCDkLcyre2P11ZJFW_8u8K1vk_9BA64h_u1CAnZXungVN6qlPu8GEt5VYUFWpAfD4vS3rDhJY-csKVR3Rj6nIDWtDF1Vix022QMcZiBbSVMqVF7twZfmZNyCWn9RwXcfV8mCNHxDQ7rFO_580Cj1pXsdiZXGyD2OfX0yk4FVBnupXIYYL28uwnbAIyzoD_IY3t4XwtsLGRGBc6F4ldkbQoQZ9cnvBLl__CjZ5-LdpeRNlpHNc4Gz0aV6M8MDaRa9rTKAHgSjuUwf45g-uo_4aU4WG3jDXLXMJ4XACtAGmYfTz3Zrpjvn9vsFH0EeyLDQguaVLe9jk-XiOncSRTJP5SycdXWe--wfy0KwZXK1FBlWjX0oVADdOBD3rmAGS66MctD7XDpCR5Y9OyQVY8Dn8OaS7x6QFtcbrpmig-ozlOdgOZywIorSySKC8oraHjUKjBKlprLr9bScjX4Vl_h5k7gZ40jqYrjpH1ZhrGt4azi_yvbsjqlfdUwvFg3cg6psWHzeLvWirIJhyCIkSfaYw9MtsylNi4oCOzv2xtVFOVxLbsQmjoU5l82-AIXcZWYbrr3oduBMwPhvihoj3ePBL67BCzC3eLJio-ZZrt0SUELac7iXGkt9eLvmrhZAWO2XnGwahDJ4AIdwSkit7Querj_JJBuem8ty1oFh5ErJZ03Ccy1VLxLA_M_OdKLymYWUzq-bEkHxr49BRjpuTcEDeUn3Y5jhcVkNOZ8tbBZjAM5m6BOj1_sCiAOFlrBEkvA2xWA22juE1iC5bmh2iJ1A=w1920-h927?auditContext=prefetch"
     ]
 );
 descs.set(
     "Lucy", [
         "A shadow-like, 7-foot tall monster with eyes of the void.",
-        "There is nothing you can do to escape her grabby mitts and tight hug of death.",
+        "There is nothing you can do to escape her grabby mitts and tight hug of death. Glass cups teetering on tabletops beware.",
         "https://lh3.googleusercontent.com/rd-d/ALs6j_G907lGlF1DeGIwoKSAqFlCWzDLgr9fgZDVMaW56y8fBxavginUysTrqOx-MiXaljvrEWVOY0k7-TDxijQUWwYo_wv2jU2nW3_d2L0j4aqN7DCrhg5Z9yyBm9D52fy1yIhF_gRG7hg_GOoxjsdNaq8Mw1wDZZ8Zn2tkYepbBDI7LYRPMeUc9yn01YOb_08QfNNoc9xpLNHuayMAux95lOYH-bKFDU5EEGtHU4iqx-ZSB5-fevLifxYhAj8Me-ETe7c34ioyuIk8d62yrZ023x6I1i_ZJN5oj3U6q5t0CVMbobXgdorio0wOFW4lL0zBhQ2rPp4AmesX_MXyVQky8NEGkaSLCqpI17R_3QBFV-f1ErL1cMV9PoM-TbPEQgEegHKa-LhV7atAoAGzCqGTDqve-8gFM8LRj58P5glR0a8JTD7DS8y1zWP7TYkSk5XdXoRpqr5PXdKiLI-oMIsDd-y22JSDnkl2c9PIKz45K7u53oxLC1vineMfZHAPx4xAeCTD-8Wrs7mASMevhXxei4JEO8ProFIWdZdYZbJFJbLOuonVW3ohVJynfyCXulnG3u9OXlpP1g0zwWa5LEi9NTjtriWgKXX3oeNvS_P2PAHi7em5SRMo5RGfODiWE4Zxky2KXb-NMZn3dQKn2Vn5M8ZjlqhlDnJadccocc6OYOVxRw9t78vIps8EdhcJ4MdsTeH2lk1PC1xC-YkX8q1Y9dqVNvHyKOdzrY0DK92E3AIckegstf-cqzQlWL7r11_O1HoQJ2H90RrBNht4STDW5z-qvMxNjeb4-gEX5dcAGbLv8ZOrLz1onGAtUzuQRoYzEpKFlr61W6e71EsrBIkXP4S38E4PNsZD0Te_DYh8J3kcJRy206eX8nKAp72HjxscA2ZrBYu1dX9IlJ0i0vY0ZjlIuqULpPSIISSDViJkPVyuel-7CeKVDLHuVXRCU-c4uE5oa7dsCtmMioySFcrfWClSHDqeQY_L35382xAaJ8YQcPUPpq3w3alchjq37vOfN92k1iAw9N7BR4CnQ3gOcMn3AJeOEV5UVVkBnfzj_bgaKArHUXxUplhqaHu3-LvE3plCdzOBMIPymmanhtst9_eYq1HhnS70BbjJD_2NC6FSKkX7aZT6=w1920-h927?auditContext=prefetch"
     ]
 );
