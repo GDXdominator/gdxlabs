@@ -79,4 +79,4 @@ document.getElementById("SortByRelease").addEventListener("click", function() {
     switchList(discography, "Discography")
 }, false)
 
-switchList(chronology, "Chronology");
+switchList(discography, "Discography");
