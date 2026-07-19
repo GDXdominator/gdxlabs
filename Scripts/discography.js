@@ -16,7 +16,8 @@ var discography = [
     ["GDX", "Snort A Lot More Crack", "2026/04/16", "Single"],
     ["Candle Cat", "The Idol is Here", "2026/05/23", "Single"],
     ["GDX", "Gay Speedcore", "2026/06/02", "Single"],
-    ["Hill Witch", "Forbidden Sorcery", "2026/06/15", "Single"]
+    ["Hill Witch", "Forbidden Sorcery", "2026/06/15", "Single"],
+    ["GDX", "1 4 S0RR0W", "2026/07/12", "Single"]
 ];
 var chronology = [
     ["GDX", "Drowning in Reverb", "2024/05/09", "Track"],
@@ -37,9 +38,9 @@ var chronology = [
     ["Candle Cat", "The Idol is Here", "2025/07/09", "Track"],
     ["GDX", "KICK KONG VS. KICKZILLA", "2025/07/12", "Track"],
     ["GDX", "An Ethereal Rhythm", "2025/07/21", "Track"],
+    ["GDX", "1 4 S0RR0W", "2025/10/15", "Track"],
     ["GDX", "Gay Speedcore", "2026/01/21", "Track"],
     ["GDX", "MADSCIENCE", "2026/01/26", "Album"],
-    ["GDX", "Snort A Lot More Crack", "2026/02/21", "Track"]
 ];
 var discographyText = document.getElementById("discography");
 
