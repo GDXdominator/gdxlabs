@@ -74,7 +74,8 @@ div a {
 .bio {
   margin-left: 10px;
   margin-right: 10px;
-  height: 15vw;
+  min-height: 15vw;
+  height: fit-content;
 }
 
 h2 {
